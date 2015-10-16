@@ -22,7 +22,7 @@ task -name Rebuild -depends Clean,Build -action {
 }
             
 #here's the task to run nunit test            
-Task Test -PreCondition { return Test-CommandExists("nunit") } {
-    Exec { nunit ".\build\Unit.Tests.dll" }
+Task -nunitTest {
+    Exec { C:\Program Files (x86)\NUnit 2.6\bin\nunit-console.exe FizzBuzz\FizzBuzz\bin\debug\FizzBuzz.dll" }
 }
 task default -depends Build;
