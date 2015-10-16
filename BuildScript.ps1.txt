@@ -1,0 +1,28 @@
+#codesample taken from http://toreaurstad.blogspot.com/2013/04/using-psake-to-build-visual-studio.html
+#Hi Justin/Jeffery, from what I learned PSake uses a dependency mechanism to define tasks that depends on other tasks. 
+#For example everytime before we rebuild a solution we need to clean it.
+   
+            
+task -name Build -description "builds outdated source files" -action {            
+    write-host 'The build task is now running';            
+    exec {            
+        msbuild 'C:\Users\Yujie\Desktop\CMCodeAssessment\FizzBuzz\FizzBuzz.sln' /p:Configuration=$config            
+    }            
+}            
+            
+task -name Clean -description "deletes all build artifacts" -action {            
+    write-host 'The clean task is now running';             
+     exec {            
+        msbuild 'C:\Users\Yujie\Desktop\CMCodeAssessment\FizzBuzz\FizzBuzz.sln' /t:Clean /p:Configuration=$config             
+    }            
+}            
+            
+task -name Rebuild -depends Clean,Build -action {            
+    write-host 'The rebuild task is now running';             
+}
+            
+#here's the task to run nunit test            
+Task Test -PreCondition { return Test-CommandExists("nunit") } {
+    Exec { nunit ".\build\Unit.Tests.dll" }
+}
+task default -depends Build;
