@@ -1,0 +1,8 @@
+c:\users\yujie\documents\visual studio 2013\Projects\FizzBuzz\FizzBuzz\bin\Debug\FizzBuzz.pdb
+c:\users\yujie\documents\visual studio 2013\Projects\FizzBuzz\FizzBuzz\obj\Debug\FizzBuzz.csprojResolveAssemblyReference.cache
+c:\users\yujie\documents\visual studio 2013\Projects\FizzBuzz\FizzBuzz\obj\Debug\FizzBuzz.pdb
+c:\users\yujie\documents\visual studio 2013\Projects\FizzBuzz\FizzBuzz\bin\Debug\FizzBuzz.dll.config
+c:\users\yujie\documents\visual studio 2013\Projects\FizzBuzz\FizzBuzz\bin\Debug\FizzBuzz.dll
+c:\users\yujie\documents\visual studio 2013\Projects\FizzBuzz\FizzBuzz\bin\Debug\nunit.framework.dll
+c:\users\yujie\documents\visual studio 2013\Projects\FizzBuzz\FizzBuzz\bin\Debug\nunit.framework.xml
+c:\users\yujie\documents\visual studio 2013\Projects\FizzBuzz\FizzBuzz\obj\Debug\FizzBuzz.dll
