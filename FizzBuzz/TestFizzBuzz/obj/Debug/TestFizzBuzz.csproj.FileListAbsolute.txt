@@ -1,5 +1,0 @@
-C:\Users\Yujie\documents\visual studio 2013\Projects\FizzBuzz\TestFizzBuzz\bin\Debug\TestFizzBuzz.dll
-C:\Users\Yujie\documents\visual studio 2013\Projects\FizzBuzz\TestFizzBuzz\bin\Debug\TestFizzBuzz.pdb
-C:\Users\Yujie\documents\visual studio 2013\Projects\FizzBuzz\TestFizzBuzz\obj\Debug\TestFizzBuzz.csprojResolveAssemblyReference.cache
-C:\Users\Yujie\documents\visual studio 2013\Projects\FizzBuzz\TestFizzBuzz\obj\Debug\TestFizzBuzz.dll
-C:\Users\Yujie\documents\visual studio 2013\Projects\FizzBuzz\TestFizzBuzz\obj\Debug\TestFizzBuzz.pdb
